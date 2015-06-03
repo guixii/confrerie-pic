@@ -29,32 +29,31 @@ body {
 }
 
 .confrerie{
-	width: 40%;
+	width: 30%;
 	height: 39%;
 	margin: 20px;
 	padding: 15px;
 	position: relative;
-	width: 5%;
 }
 
 #alpha{
-	background: linear-gradient(to right, rgb(99, 7, 8), rgba(213, 11, 23, 0));
+	background-color: rgb(99, 7, 8);
 	float: left;
 }
 
 #epsilon{
-	background: linear-gradient(to left, rgb(19, 19, 11), rgba(52, 48, 26, 0));
+	background-color: rgb(19, 19, 11);
 	float: right;
 	text-align: right;
 }
 
 #phi{
-	background: linear-gradient(to right, rgb(15, 14, 30), rgba(39, 41, 91, 0));
+	background-color: rgb(15, 14, 30);
 	float: left;
 }
 
 #omega{
-	background: linear-gradient(to left, rgb(67, 95, 46), rgba(44, 78, 3, 0));
+	background-color: rgb(67, 95, 46);
 	float: right;
 	text-align: right;
 }
