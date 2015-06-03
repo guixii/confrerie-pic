@@ -1,0 +1,57 @@
+html, body{
+	position: relative;
+    height: 100%;
+    margin: 0px;
+}
+
+body {
+	background: white url(bg.jpg) no-repeat center top;
+	background-size: auto 100%;
+	background-attachment:fixed;
+	overflow: hidden;
+}
+
+#page{
+	height: 100%;
+	position: relative;
+}
+
+.confrerie{
+	width: 40%;
+	height: 39%;
+	margin: 20px;
+	padding: 15px;
+	position: relative;
+}
+
+.confrerie p{
+	font-size: 6em;
+	color: #AAA;
+	vertical-align: bottom;
+}
+
+#alpha{
+	background: linear-gradient(to right, black, rgba(255, 255, 255, 0) 5%);
+	float: left;
+}
+
+#beta{
+	background: linear-gradient(to left, black, rgba(255, 255, 255, 0) 50%);
+	float: right;
+	text-align: right;
+}
+
+#gamma{
+	background: linear-gradient(to right, black, rgba(255, 255, 255, 0) 30%);
+	float: left;
+}
+
+#epsilon{
+	background: linear-gradient(to left, black, rgba(255, 255, 255, 0) 70%);
+	float: right;
+	text-align: right;
+}
+
+.clear{
+	clear: both;
+}
